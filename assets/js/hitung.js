@@ -1,4 +1,4 @@
-var date1 = new Date(2015, 07, 17);
+var date1 = new Date(2022, 03, 16);
 var date2 = new Date();
 var tahun = (date2.getTime() - date1.getTime()) / 1000;
 tahun /= (60 * 60 * 24);
@@ -23,4 +23,4 @@ if (present_date.getMonth() == 07 && present_date.getdate() > 17){
 
 var Result = Math.round(christmas_day.getTime() - present_date.getTime()) / (one_day);
 var Final_Result = Result.toFixed(0);
-$('#harijadinya').html(Final_Result+'<span> Hari menuju 17 agustus</span>');
+$('#harijadinya').html(Final_Result+'<span> Hari menuju 16 Maret</span>');
